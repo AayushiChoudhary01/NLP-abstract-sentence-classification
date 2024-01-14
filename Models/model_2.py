@@ -1,5 +1,0 @@
-input_data = Input(shape = [], dtype = tf.string)
-pretrained_embedding = tf_hub_embedding_layer(input_data)
-z = Dense(128, activation= "relu")(pretrained_embedding)
-output_data = Dense(5, activation = "softmax")(z)
-model_2 = Model(inputs = [input_data], outputs = [output_data])
