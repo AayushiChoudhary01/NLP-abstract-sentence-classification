@@ -5,7 +5,7 @@ RCT papers are being published at an increasing rate; those lacking organised ab
 Creating an NLP model that categorises abstract sentences according to their functions (such as goal, methodology, findings, etc.) so that researchers can quickly scan the literature and delve further when needed.
 The model will take an abstract wall of text and predict the section label each sentence should have.
 ## Objectives:-
-1.  Downloading text dataset (PubMed RCT200K from Github).
+1.  Downloading text dataset (PubMed RCT20k from Github).
 2. Preparing the data for modelling.
 3.  Setting up series for modelling experiments :- 
   Trying out different deep models with different combinations of  token embeddings,            character embeddings, pretrained embeddings, positional embeddings.
